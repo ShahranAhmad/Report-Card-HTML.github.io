@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>Report Card</title>
+   <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+   <div id="final-report">
+      <h1>Jawahar Navodaya Vidyalaya, Bengaluru(U)</h1>
+
+      <b id="std-detail" class="st1">Name: </b>       <span id="std-det-1" class="st-1"></span>
+      <b id="std-detail" class="st1">Class: </b>      <span id="std-det-2" class="st-1"></span>
+      <b id="std-detail" class="st1">Roll No.: </b>   <span id="std-det-3" class="st-1"></span><br><br>
+
+       <b id="mark" class="st2">Math: </b>       <span id="m-1" class="st-2"></span> <br>
+       <b id="mark" class="st2">Science</b>      <span id="m-2" class="st-2"></span> <br>
+       <b id="mark" class="st2">Social Sc.: </b> <span id="m-3" class="st-2"></span> <br>
+       <b id="mark" class="st2">Hindi: </b>      <span id="m-4" class="st-2"></span> <br>
+       <b id="mark" class="st2">English: </b>    <span id="m-5" class="st-2"></span> <br><br>
+
+       <b id="g" class="st2">Writing Skill: </b> <span id="g-1" class="st-2"></span> <br>
+       <b id="g" class="st2">Reading Skill: </b> <span id="g-2" class="st-2"></span> <br>
+       <b id="g" class="st2">Sports: </b>        <span id="g-3" class="st-2"></span> <br><br>
+
+        <b id="final" class="st3">Total Marks: </b>   <span id="final-1" class="st-3"></span> <b id="final" class="st3">/500</b> <br>
+        <b id="final" class="st3">Percentage: </b>    <span id="final-2" class="st-3"></span> <b id="final" class="st3">%</b> <br>
+        <b id="final" class="st3">Overall Grade: </b> <span id="final-3" class="st-3"></span> <br>       
+
+   </div>
+   <button id="btn-3" onclick="confirmReport()">Confirm Report Card</button>
+   <button id="btn-4" onclick="printReport()">Print Report Card</button>
+   <div id="raw-data">
+      
+         <h1>Student Details</h1>
+         <input type="text" placeholder="enter student's name here" id="std-name"> <br>
+         <input type="number" placeholder="enter class here" id="std-class"> <br>
+         <input type="number" placeholder="enter roll no. here" id="std-rollno"> <br>
+
+         <h1>Report</h1>
+         <input type="number" id="mark-1" placeholder="enter maths marks"> <br>
+         <input type="number" id="mark-2" placeholder="enter science marks"> <br>
+         <input type="number" id="mark-3" placeholder="enter social science marks"> <br>
+         <input type="number" id="mark-4" placeholder="enter hindi marks"> <br>
+         <input type="number" id="mark-5" placeholder="enter english marks"> <br><br>
+
+         <input type="text" id="grade-1" placeholder="enter writing skills grade here"> <br>
+         <input type="text" id="grade-2" placeholder="enter reading skills grade here"> <br>
+         <input type="text" id="grade-3" placeholder="enter sports grade here"> <br>
+         <button onclick="takeInput()" id="btn-1">Preview Report Card</button>
+         <button onclick="hidePreview()" id="btn-2">Hide Preview</button>
+     
+   </div>
+
+   <script src="Script.js"></script>
+
+</body>
+
+</html>

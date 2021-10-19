@@ -1,0 +1,39 @@
+#final-report,#btn-3,#btn-4{
+    display: none;
+}
+#final-report{
+    font-family: calibri;
+    margin: 5%;
+    padding: 20px;
+    border: 12px double darkblue;
+    border-radius: 20px;
+}
+#final-report h1{
+    font-size: 45px;
+    font-family: courier new;
+    color: forestgreen;
+    text-align: center;
+}
+.st1{
+    font-size: 28px;
+    color: darkblue;
+}
+.st-1{
+    font-size: 30px;
+    color: darkgreen;
+}
+.st2,.st3,.st-2,.st-3{
+    font-size: 23px;
+}
+.st2{
+    color: darkmagenta;
+}
+.st-2{
+    color: blue;
+}
+.st3{
+    color: darkred;
+}
+.st-3{
+    color: darkviolet;
+}
